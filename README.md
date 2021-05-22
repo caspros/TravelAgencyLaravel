@@ -1,21 +1,68 @@
 # TravelAgencyLaravel
 A web application developed in Laravel for travel agencies to support agency management
 
+## Features
+- Users account system
+- Reservation system
+- Administration Panel Dashboard with statistics
+- Admin CRUD Panel for travels, posts, reservations
 
-# Project setup
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+## Tech stack
+- Laravel 8
+- Bootstrap 4
+- Fortify
+
+## Installation
+
+Project requires PHP 7.3+
+
+Clone repository
+
+```sh
+git clone https://github.com/caspros/TravelAgencyLaravel.git
+```
+
+Install composer and npm dependencies
+
+```sh
+cd your_path_to_project_folder
+composer install
+npm install
+```
+
+Make a database configuration in .env file
+
+```sh
+cp .env.example .env
+
+```
+
+Generate an app encryption key
+
+```sh
+php artisan key:generate
+
+```
+
+Migrate the database
+
+```sh
+php artisan migrate
+
+```
+
+Example database is located at example_database folder. Download it and import to phpmyadmin
+
+Finally you can start the server:
+
+```sh
+php artisan serve
+
+```
 
 
-# Project presentation
+
+## Project presentation
 
 ### 1. Main page
 ![scr0](https://user-images.githubusercontent.com/56698760/119235845-aa9c5e00-bb34-11eb-9b69-4e5f42f28754.png)
