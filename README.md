@@ -52,6 +52,7 @@ php artisan migrate
 ```
 
 Example database is located at example_database folder. Download it and import to phpmyadmin
+Credentials for admin account are located in admin.txt file in the same folder
 
 Finally you can start the server:
 
